@@ -27,12 +27,15 @@ node index.js
 ## Endpoints
 
 ### Register User
+On Local
 - http://localhost:8080/api/register
+For Server
+- http://65.1.155.86:8080/api/register
 
 #### Headers
 ```bash
 - Content-Type - application/json
-- Authorization - xxx (You can specify your own auth key in .env file)
+- Authorization - 5e53c09fb5b2bd665197f287 (You can specify your own auth key in .env file)
 ```
 
 #### Request body
@@ -47,7 +50,7 @@ node index.js
     "first_name": "Simran",
     "last_name" : "Kahlon",
     "email_id" : "simran@gmail.com",
-    "password" : "abcd@123",
+    "password" : "Abcd@123",
     "employee_id" : "XYZ101",
     "organization_name" : "XYZ"
 }
@@ -65,12 +68,15 @@ node index.js
 ```
 
 ### Login User
+On Local
 - http://localhost:8080/api/login
+For Server
+- http://65.1.155.86:8080/api/login
 
 #### Headers
 ```bash
 - Content-Type - application/json
-- Authorization - xxx (You can specify your own auth key in .env file)
+- Authorization - 5e53c09fb5b2bd665197f287 (You can specify your own auth key in .env file)
 ```
 
 #### Request body
@@ -96,12 +102,15 @@ node index.js
 ```
 
 ### Get User List
+On Local
 - http://localhost:8080/api/getUserList
+For Server
+- http://65.1.155.86:8080/api/getUserList
 
 #### Headers
 ```bash
 - Content-Type - application/json
-- Authorization - xxx (You can specify your own auth key in .env file)
+- Authorization - 5e53c09fb5b2bd665197f287 (You can specify your own auth key in .env file)
 - x-access-token - xxxxx (Token returned on successful login/registration. Its valid for 24 hours)
 ```
 
@@ -116,13 +125,13 @@ If none of the above fields are passed, by default the first 10 records will be 
 
 
 ```bash
-{
-    "search_field": "first_name",
-    "search_value" : "si",
-    "sort_field": "organization_name",
-    "page": 0,
-    "size": 3
-}
+    {
+        "search_field": "first_name",
+        "search_value" : "si",
+        "sort_field": "organization_name",
+        "page": 0,
+        "size": 3
+    }
 ```
 #### Response
 ```bash
