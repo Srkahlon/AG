@@ -27,10 +27,8 @@ node index.js
 ## Endpoints
 
 ### Register User
-On Local
-- http://localhost:8080/api/register
-For Server
-- http://65.1.155.86:8080/api/register
+- On Local - http://localhost:8080/api/register
+- For Server - http://65.1.155.86:8080/api/register
 
 #### Headers
 ```bash
@@ -68,10 +66,8 @@ For Server
 ```
 
 ### Login User
-On Local
-- http://localhost:8080/api/login
-For Server
-- http://65.1.155.86:8080/api/login
+- On Local - http://localhost:8080/api/login
+- For Server - http://65.1.155.86:8080/api/login
 
 #### Headers
 ```bash
@@ -102,10 +98,8 @@ For Server
 ```
 
 ### Get User List
-On Local
-- http://localhost:8080/api/getUserList
-For Server
-- http://65.1.155.86:8080/api/getUserList
+- On Local - http://localhost:8080/api/getUserList
+- For Server - http://65.1.155.86:8080/api/getUserList
 
 #### Headers
 ```bash
@@ -157,4 +151,3 @@ If none of the above fields are passed, by default the first 10 records will be 
 - The routes are present in the src/routes/apiRoutes.js
 - The User and Employee model and migration are present in the src/models and src/migrations folder subsequently.
 - .env file contains environment related values.
-- .sequelizerc is used by the Sequelize CLI.
