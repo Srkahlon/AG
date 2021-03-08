@@ -30,6 +30,8 @@ node index.js
 - On Local - http://localhost:8080/api/register
 - For Server - http://65.1.155.86:8080/api/register
 
+#### Request Method - POST
+
 #### Headers
 ```bash
 - Content-Type - application/json
@@ -69,6 +71,8 @@ node index.js
 - On Local - http://localhost:8080/api/login
 - For Server - http://65.1.155.86:8080/api/login
 
+#### Request Method - POST
+
 #### Headers
 ```bash
 - Content-Type - application/json
@@ -100,6 +104,8 @@ node index.js
 ### Get User List
 - On Local - http://localhost:8080/api/getUserList
 - For Server - http://65.1.155.86:8080/api/getUserList
+
+#### Request Method - POST
 
 #### Headers
 ```bash
