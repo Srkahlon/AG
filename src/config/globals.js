@@ -9,6 +9,5 @@ module.exports = {
     "general_exception" : "General Exception",
     "auth_header_missing": "Unauthorized Access",
     "invalid_email_password" : "Invalid Email-id or Password",
-    "employee_id_exists" : "Employee with this employee id and organization name already exists.",
-    "sync_database" : false
+    "employee_id_exists" : "Employee with this employee id and organization name already exists."
 }

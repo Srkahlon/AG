@@ -7,7 +7,7 @@ const globals = require("./src/config/globals.js");
 
 app.use(bodyParser.json());
 
-db.sequelize.sync({ force: globals.sync_database }).then(() => {
+db.sequelize.sync({ force: process.env.SYNC_DATABASE }).then(() => {
     console.log("Drop and re-sync db.");
 });
 
